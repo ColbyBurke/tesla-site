@@ -1,0 +1,100 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    width:200px;
+    height: auto;
+}
+body{
+    background-image: url("tesla-biggest.jpg");
+    background-size: cover;
+}
+.models{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+.shop-signin{
+    display: flex;
+}
+.header-elements{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    font-size: 11pt;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.body-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    color: white;
+    padding-top: 250px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.pre-text{
+    text-align: center;
+}
+.right-border{
+    border-right: 1px solid white;
+}
+h3{
+    padding: 20px;
+}
+.mph3{
+    padding-right:40px;
+}
+.outerfoot{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+    width: 220px;
+}
+button:hover{
+    background-color: white;
+}
+@media only screen and (max-width: 750px){
+    body{
+        background-image: url("tesla-mobile-pic.jpg");
+    }
+    .models, .shop-signin{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 1200px){
+    body{
+        background-image: url("tesla-bigger.jpg");
+    }
+    .models, .shop-signin{
+        display: none;
+    }
+    
+}
+.lower-text{
+    font-size: 9px;
+}
